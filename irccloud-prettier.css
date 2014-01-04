@@ -1,11 +1,13 @@
+/*
 div.log {
     background-color: rgb(237, 237, 239) !important;
     padding-bottom: .2em !important;
     padding-left: .5em !important;
     padding-right: .5em !important;
 }
+*/
 
-.time-12hr.time-noseconds div.log div.messageRow, .time-24hr.time-seconds div.log div.messageRow {
+/*.time-12hr.time-noseconds div.log div.messageRow, .time-24hr.time-seconds div.log div.messageRow {
     padding-left: 10px !important;
     background-color: rgb(244, 244, 244) !important;
     padding-top: .5em !important;
@@ -27,49 +29,73 @@ div.log {
 .time-12hr.time-noseconds div.log div.messageRow[data-name^=GitHub] .content a, .time-24hr.time-seconds div.log div.messageRow[data-name^=GitHub] .content a {
     color: rgb(124, 124, 124) !important;
 }
+*/
 
-.time-12hr.time-noseconds div.log span.date, .time-24hr.time-seconds div.log span.date {
+/*.time-12hr.time-noseconds div.log span.date, .time-24hr.time-seconds div.log span.date {
     float: right !important;
-}
+}*/
 
-.content {
+/*.content {
     display: block !important;
     width: 80% !important;
     margin-top: 2px !important;
-}
+}*/
 
-.content a {
+/*.content a {
     color: rgb(63, 63, 63) !important;
-}
+}*/
 
 div.log div.row span.mode_OP, .inputInfo span.mode_OP, .nickcell span.mode_OP, #memberContextMenu h3 span.mode_OP {
     display: none !important;
 }
 
-div.log div.row span a.author, td.nickcell a.nick {
+/*div.log div.row span a.author, td.nickcell a.nick {
     font-weight: bold !important;
     color: rgb(124, 124, 124) !important;
+}*/
+
+div.log div.row span a.author:before {
+  content: "<";
+}
+div.log div.row span a.author:after {
+  content: ">";
 }
 
+div.log div.highlight {
+	background-color: #fff9aa!important;
+	border: 1px dotted #ffdd00;
+  	border-width: 1px 0;
+}
+
+div.log div.self {
+	background-color: transparent!important;
+}
+
+
 td.nickcell a.nick, td.inputcell textarea, div.log div.messageRow, div.log div.me a.user {
-    font-size: 16px !important;
-    line-height: 22px !important;
+    font-size: 13px !important;
+    line-height: 18px !important;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: rgb(124, 124, 124) !important;
 }
 
-div.log div.lastSeen span.text, div.log div.bottomSeen span, div.log div.focusSeen span {
+/*div.log div.lastSeen span.text, div.log div.bottomSeen span, div.log div.focusSeen span {
     border-radius: 1em !important;
     padding: .2em 1em !important;
     color: rgb(124, 124, 124) !important;
 }
+*/
 
 p#addNetwork a {
     padding-left: 0 !important;
     background: none !important;
     color: rgb(9, 51, 134) !important;
+}
+
+#buffers {
+	margin: 0 0 10px 5px; 
 }
 
 #buffers .ssl h2 a.buffer {
@@ -91,6 +117,10 @@ p#addNetwork a {
 
 #sidebarwrapper {
     width: 150px !important;
+	top: 37px!important;
+  	bottom: 0;
+  	height: auto;
+	left: 0;
 }
 
 #buffers .active a.buffer {
@@ -113,8 +143,13 @@ p#addNetwork a {
     background-color: rgb(9, 51, 134) !important;
 }
 
+/*
 .extras span.extrasBar {
     background-color: rgb(9, 51, 134) !important;
+}
+*/
+.extras span.extrasBar {
+	background-color: #1E72FF!important;
 }
 
 .extras span.extrasDismiss:hover {
@@ -143,11 +178,11 @@ table.buffer {
 div.memberwrapper {
     background-color: white !important;
     border-left: 1px solid #ccc !important;
-    width: 125px !important;
+    width: 100px !important;
 }
 
 .showMembers div.buffermain {
-    padding-right: 125px !important;
+    padding-right: 100px !important;
 }
 
 ul.memberList li.ops h2 {
@@ -163,6 +198,25 @@ ul.memberList li.ops h2 span.memberCount {
 ul.memberList li.ops ul {
     border-color: #CCC !important;
     background-color: white !important;
+}
+
+#mainwrapper {
+  height: 100%;
+  padding-left: 150px;
+  padding-right: 0 !important;
+}
+
+#timeContainer {
+  left: 150px;
+}
+
+.dateWrapper {
+	left: auto;
+    margin-right: 100px;
+}
+
+h1#title {
+ 	margin-left: -150px; 
 }
 
 @media (max-width: 778px) {
@@ -183,4 +237,11 @@ ul.memberList li.ops ul {
     #headercell {
         display: none !important;
     }
+}
+
+#footer a {
+	color: inherit!important;
+}
+#footer:hover a {
+  	color: rgb(9, 51, 134) !important;
 }
