@@ -53,7 +53,9 @@ p#addNetwork a {
 }
 
 #mainwrapper {
-    padding-right: 150px !important;
+  height: 100%;
+  padding-left: 150px;
+  padding-right: 0 !important;
 }
 
 #sidebarwrapper {
@@ -136,12 +138,6 @@ ul.memberList li.ops ul {
     background-color: white !important;
 }
 
-#mainwrapper {
-  height: 100%;
-  padding-left: 150px;
-  padding-right: 0 !important;
-}
-
 #timeContainer {
   left: 150px;
 }
@@ -161,17 +157,24 @@ h1#title {
         min-width: 0 !important;
     }
 
-    div#sidebarwrapper {
-        width: 0 !important;
-        display: none !important;
+	.memberwrapper {
+  		display: none!important;
     }
 
-    #mainwrapper {
-        padding-right: 0 !important;
+	.showMembers div.buffermain {
+        padding-right: 0 !important;  
+  	}
+  
+  	.dateWrapper {
+  		margin-right: 0 !important;
     }
 
     #headercell {
         display: none !important;
+    }
+    
+	#sidebarwrapper {
+		top: 0!important;
     }
 }
 
