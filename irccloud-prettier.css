@@ -28,32 +28,32 @@ div.log {
     color: rgb(124, 124, 124) !important;
 }
 
-.time-12hr.time-noseconds div.log span.date, .time-24hr.time-seconds div.log span.date {
+/*.time-12hr.time-noseconds div.log span.date, .time-24hr.time-seconds div.log span.date {
     float: right !important;
-}
+}*/
 
-.content {
+/*.content {
     display: block !important;
     width: 80% !important;
     margin-top: 2px !important;
-}
+}*/
 
-.content a {
+/*.content a {
     color: rgb(63, 63, 63) !important;
-}
+}*/
 
 div.log div.row span.mode_OP, .inputInfo span.mode_OP, .nickcell span.mode_OP, #memberContextMenu h3 span.mode_OP {
     display: none !important;
 }
 
-div.log div.row span a.author, td.nickcell a.nick {
+/*div.log div.row span a.author, td.nickcell a.nick {
     font-weight: bold !important;
     color: rgb(124, 124, 124) !important;
-}
+}*/
 
 td.nickcell a.nick, td.inputcell textarea, div.log div.messageRow, div.log div.me a.user {
-    font-size: 16px !important;
-    line-height: 22px !important;
+    font-size: 13px !important;
+    line-height: 18px !important;
 }
 
 ::-webkit-scrollbar-thumb {
