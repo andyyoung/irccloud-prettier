@@ -1,58 +1,6 @@
-/*
-div.log {
-    background-color: rgb(237, 237, 239) !important;
-    padding-bottom: .2em !important;
-    padding-left: .5em !important;
-    padding-right: .5em !important;
-}
-*/
-
-/*.time-12hr.time-noseconds div.log div.messageRow, .time-24hr.time-seconds div.log div.messageRow {
-    padding-left: 10px !important;
-    background-color: rgb(244, 244, 244) !important;
-    padding-top: .5em !important;
-    padding-bottom: .5em !important;
-    margin-top: .5em !important;
-    border: 1px solid #ccc !important;
-    border-radius: .5em !important;
-}
-
-.time-12hr.time-noseconds div.log div.messageRow[data-name^=GitHub], .time-24hr.time-seconds div.log div.messageRow[data-name^=GitHub] {
-    background-color: rgb(237,237,239) !important;
-    border: none !important;
-}
-
-.time-12hr.time-noseconds div.log div.messageRow[data-name^=GitHub] .content, .time-24hr.time-seconds div.log div.messageRow[data-name^=GitHub] .content {
-    color: rgb(124, 124, 124) !important;
-}
-
-.time-12hr.time-noseconds div.log div.messageRow[data-name^=GitHub] .content a, .time-24hr.time-seconds div.log div.messageRow[data-name^=GitHub] .content a {
-    color: rgb(124, 124, 124) !important;
-}
-*/
-
-/*.time-12hr.time-noseconds div.log span.date, .time-24hr.time-seconds div.log span.date {
-    float: right !important;
-}*/
-
-/*.content {
-    display: block !important;
-    width: 80% !important;
-    margin-top: 2px !important;
-}*/
-
-/*.content a {
-    color: rgb(63, 63, 63) !important;
-}*/
-
 div.log div.row span.mode_OP, .inputInfo span.mode_OP, .nickcell span.mode_OP, #memberContextMenu h3 span.mode_OP {
     display: none !important;
 }
-
-/*div.log div.row span a.author, td.nickcell a.nick {
-    font-weight: bold !important;
-    color: rgb(124, 124, 124) !important;
-}*/
 
 div.log div.row span a.author:before {
   content: "<";
@@ -80,13 +28,6 @@ td.nickcell a.nick, td.inputcell textarea, div.log div.messageRow, div.log div.m
 ::-webkit-scrollbar-thumb {
     background-color: rgb(124, 124, 124) !important;
 }
-
-/*div.log div.lastSeen span.text, div.log div.bottomSeen span, div.log div.focusSeen span {
-    border-radius: 1em !important;
-    padding: .2em 1em !important;
-    color: rgb(124, 124, 124) !important;
-}
-*/
 
 p#addNetwork a {
     padding-left: 0 !important;
@@ -143,11 +84,6 @@ p#addNetwork a {
     background-color: rgb(9, 51, 134) !important;
 }
 
-/*
-.extras span.extrasBar {
-    background-color: rgb(9, 51, 134) !important;
-}
-*/
 .extras span.extrasBar {
 	background-color: #1E72FF!important;
 }
